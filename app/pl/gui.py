@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import messagebox, ttk
-from src.bll.user_manager import UserManager
-from src.bll.expense_manager import ExpenseManager
-from src.bll.inventory_manager import InventoryManager
-from src.bll.sales_manager import SalesManager
-from src.bll.report_manager import ReportManager
+from app.bll.user_manager import UserManager
+from app.bll.expense_manager import ExpenseManager
+from app.bll.inventory_manager import InventoryManager
+from app.bll.sales_manager import SalesManager
+from app.bll.report_manager import ReportManager
 
 class Application(tk.Tk):
     def __init__(self):

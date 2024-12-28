@@ -1,4 +1,4 @@
-from src.pl.gui import Application
+from app.pl.gui import Application
 
 if __name__ == "__main__":
     app = Application()

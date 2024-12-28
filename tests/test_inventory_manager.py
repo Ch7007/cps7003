@@ -1,7 +1,7 @@
 import unittest
-from src.dal.database import session
-from src.dal.models import Inventory
-from src.bll.inventory_manager import InventoryManager
+from app.dal.database import session
+from app.dal.models import Inventory
+from app.bll.inventory_manager import InventoryManager
 
 class TestInventoryManager(unittest.TestCase):
     def setUp(self):

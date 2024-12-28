@@ -1,8 +1,8 @@
 import unittest
 from datetime import datetime
-from src.dal.database import session
-from src.dal.models import Sale
-from src.bll.sales_manager import SalesManager
+from app.dal.database import session
+from app.dal.models import Sale
+from app.bll.sales_manager import SalesManager
 
 class TestSalesManager(unittest.TestCase):
     def setUp(self):

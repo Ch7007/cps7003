@@ -1,8 +1,8 @@
 import unittest
 from datetime import datetime
-from src.dal.database import session
-from src.dal.models import Expense
-from src.bll.expense_manager import ExpenseManager
+from app.dal.database import session
+from app.dal.models import Expense
+from app.bll.expense_manager import ExpenseManager
 
 class TestExpenseManager(unittest.TestCase):
     def setUp(self):
